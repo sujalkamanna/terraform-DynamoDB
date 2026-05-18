@@ -241,7 +241,7 @@ Default output format: json
 
 ```bash
 # Clone repository
-git clone https://github.com/sujalkamanna/terraform-vpc.git
+git clone https://github.com/sujalkamanna/terraform-DynamoDB.git
 cd terraform-vpc
 
 # Initialize Terraform
@@ -818,7 +818,7 @@ ssh ubuntu@PRIVATE_IP
 
 ---
 
-## 🚀 Next Steps
+## 🚀 Next Steps (Additional/Optionals)
 
 ### Extend This Project
 
@@ -867,7 +867,7 @@ ssh ubuntu@PRIVATE_IP
 **MIT License** - Free to use, modify, and distribute.
 
 ```
-Copyright (c) 2024 Sujal Kamanna
+Copyright (c) 2026 Sujal Kamanna
 
 Permission is hereby granted, free of charge...
 ```
