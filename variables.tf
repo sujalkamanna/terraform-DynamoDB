@@ -43,7 +43,7 @@ variable "instance_type" {
 variable "ami_id" {
   description = "Ubuntu AMI ID"
   type        = string
-  default     = "ami-07a00cf47dbbc844c" #replace with your desired ami id
+  default     = "ami-XXXXXXXXXXX" #replace with your desired ami id
 }
 
 variable "key_name" {

@@ -2,6 +2,7 @@
 .terraform/
 *.tfstate
 *.tfstate.*
+terraform.tfstate.backup
 crash.log
 override.tf
 override.tf.json
@@ -9,8 +10,11 @@ override.tf.json
 *_override.tf.json
 
 # Variables
-terraform.tfvars
-
+# terraform.tfvars 
+# do not commit terraform.tfvars to git update it and add to .gitignore
 # IDE
 .vscode/
 .idea/
+
+# Private keys
+*.pem
