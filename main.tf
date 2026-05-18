@@ -30,9 +30,9 @@ resource "aws_subnet" "public_subnet_a" {
     Name = "Public Subnet A"
   }
 }
- 
+
 # Private Subnet
- 
+
 resource "aws_subnet" "private_subnet_b" {
   vpc_id            = aws_vpc.vpc1.id
   cidr_block        = var.private_subnet_cidr
